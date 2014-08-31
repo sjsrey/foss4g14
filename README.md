@@ -54,7 +54,7 @@ Note that the Academic version of Canopy comes with PySAL version 1.7. For this 
 
 You should see something like the following:
 
-![Vagrant ssh](figures/vagrant_bash.png)
+![Vagrant ssh](figs/vagrant_bash.png)
 
 	
 
