@@ -46,20 +46,50 @@ Note that the Academic version of Canopy comes with PySAL version 1.7. For this 
 
 
 
-## Outline
+#### Testing Your Installation
 
-- Part  1: Introduction and Setup (30 minutes)
-	- PySAL Overview
-	- Software Configuration Checks
-	- IPython Notebook
-- Part  2: PySAL for Spatial Data Processing (60 minutes)
-	- Spatial Data Processing with PySAL
-	- Spatial Weights
-	- Visualization
-- Break (15 Minutes)
-- Part  3: PySAL for Exploratory Spatial Data Analysis (75 Minutes)
-	- Global Spatial Autocorrelation Analysis
-	- Local Spatial Autocorrelation Analysis
+Once you have installed all the dependencies, you can check to confirm everything is ready to go.
+
+For Anaconda:
+
+1. Open a terminal (Mac or Linux) or Powershell (Windows)
+2. `ipython notebook`
+3. In the browser click `New Notebook`
+3. In the first cell in the notebook enter  
+   `import pysal`
+   `pysal.version`
+   Then **<Shift-Enter>** (i.e., hit the Shift then the Enter Key)
+4. In the second cell in the notebook enter  
+   `import folium`
+   Then **<Shift-Enter>**
+ 
+Your screen should look something like:
+![Anaconda setup](figures/anaconda.png)
+
+
+For Enthought Canopy:
+
+2. Run Canopy
+3. From the menu select `Tools Canopy Terminal`
+2. `ipython notebook`
+3. In the browser click `New Notebook`
+3. In the first cell in the notebook enter  
+   `import pysal`
+   `pysal.version`
+   Then **<Shift-Enter>** (i.e., hit the Shift then the Enter Key)
+4. In the second cell in the notebook enter  
+   `import folium`
+   Then **<Shift-Enter>**
+ 
+
+Your screen should look something like:
+![Enthought setup](figures/enthought.png)
+
+
+#### Issues
+
+If you run into any problems, double check that you have installed both the upgraded version of PySAL and folium (see above). If problems persist, please contact me <sjsrey@gmail.com>.
+
 
 [PySAL]: http://pysal.org
 [GeoDaSpace]: https://geodacenter.asu.edu/geodaspace-mode
