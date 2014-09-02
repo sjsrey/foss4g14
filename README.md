@@ -1,6 +1,6 @@
 # Exploratory Spatial Data Analysis with PySAL
 
-**Sergio Rey**
+**[Sergio Rey]**
 
 **September 8, 2014**
 
@@ -8,7 +8,7 @@
 
 ## Workshop Description
 
-PySAL is a cross-platform library of spatial analysis functions written in Python. It is intended to support the development of high level applications for spatial analysis with an emphasis on vector spatial data. This tutorial will provide hands-on training in a select set of PySAL modules with a particular focus on spatial data processing, spatial autocorrelation analysis and visualization.
+[PySAL] is a cross-platform library of spatial analysis functions written in Python. It is intended to support the development of high level applications for spatial analysis with an emphasis on vector spatial data. This tutorial will provide hands-on training in a select set of PySAL modules with a particular focus on spatial data processing, spatial autocorrelation analysis and visualization.
 
 ## Prerequisites
 
@@ -18,45 +18,32 @@ PySAL is a cross-platform library of spatial analysis functions written in Pytho
 
 ### Software Requirements
 
-There are a number of ways to install PySAL, and below we list three common approaches. The first two
-utilize python distributions that have the advantage of including the dependencies for PySAL as well as PySAL. These
-distributions install natively on your operating system so you have to take care not to confuse them with any other Python installs you may already have on your machine.
+For the workshop we will require the following packages be installed
 
-The third alternative uses VirtualBox and Vagrant to create a virtual machine that contains all the required dependencies for PySAL. The advantage of this approach is that the vm is isolated from your host operating system so there should be less confusion in the case where you already have one or more Python distributions on your machine.
+- PySAL 1.8.0
+- SciPy
+- Numpy
+- iPython Notebook 2.1+
+- folium
+
+There are a number of ways to install PySAL and these dependencies. For the workshop, if you do not yet have the dependencies installed we suggest using one of two scientific Python distributions (below). These have the advantages of including most of the dependencies for PySAL as well as PySAL itself. Moreover, both allow for updating PySAL to the most recent release  (1.8 released July 25, 2014) which is more current that what is listed in either distribution. Both of these distributions also allow for installation of our final dependency, folium.
 
 #### PySAL via Anaconda Python Distribution
 
 1. Install [Anaconda Python Distribution Version 1.8.0][Anaconda]
-2. Open a terminal/shell/Powershell
+2. Open a terminal (Mac or Linux) or Powershell (Windows)
 2. `pip install -U pysal`
+3. `pip install -U folium`
 
-#### Enthought Canopy
+#### PySAL via Enthought Canopy
 Note that the Academic version of Canopy comes with PySAL version 1.7. For this workshop we will be using PySAL 1.8. Upgrading in Canopy can be done as follows:
 
 1. Install [Canopy][Canopy]
 2. Run Canopy
 3. From the menu select `Tools Canopy Terminal`
 4. `pip install -U pysal`
+5. `pip install -U folium`
 
-#### Vagrant and a Virtual Machine
-
-1. Download the installer for [VirtualBox] for your operating system. For **Windows** download [VirtualBox 4.3.12] as the most recent version has some subtle bugs that break Vagrant.
-1. Run the VirtualBox installer
-2. Download the installer for [Vagrant] for your operating system
-1. Run the Vagrant installer
-5. For users on **Windows** download [git bash](http://msysgit.github.io/)
-3. In a terminal (or git-bash for **Windows**), create a working directory. This is where your virtual machine will be run from
-4. Download the file [Vagrantfile] and place it in this directory
-6. `vagrant up`    Note that this step will build your virtual machine, so it will take some time (20-30 minutes). This is a one-time cost, so once the machine is provisioned, we only need to boot it to use it (and booting should take 20 or so seconds).
-7. Once the machine is built and running, you connect to it with: `vagrant ssh` . At that point you should be at the bash prompt and ready to go.
-8. At the prompt, enter `ipython` then use the `Enter` key
-9. Enter `import pysal` then the `Enter` key
-
-You should see something like the following:
-
-![Vagrant ssh](figs/vagrant_bash.png)
-
-	
 
 
 ## Outline
@@ -82,3 +69,4 @@ You should see something like the following:
 [VirtualBox 4.3.12]: http://download.virtualbox.org/virtualbox/4.3.12/VirtualBox-4.3.12-93733-Win.exe
 [Vagrant]: http://www.vagrantup.com/downloads.html
 [Vagrantfile]: Vagrantfile
+[Sergio Rey]: https://geoplan.asu.edu/people/sergio-j-rey
