@@ -58,10 +58,10 @@ For Anaconda:
 3. In the first cell in the notebook enter  
    `import pysal`
    `pysal.version`
-   Then **<Shift-Enter>** (i.e., hit the Shift then the Enter Key)
+   Then `<Shift-Enter>` (i.e., hit the Shift then the Enter Key)
 4. In the second cell in the notebook enter  
    `import folium`
-   Then **<Shift-Enter>**
+   Then `<Shift-Enter>`
  
 Your screen should look something like:
 ![Anaconda setup](figures/anaconda.png)
