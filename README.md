@@ -79,7 +79,7 @@ For Enthought Canopy:
    Then `<Shift-Enter>` (i.e., hit the Shift then the Enter Key)
 4. In the second cell in the notebook enter  
    `import folium`
-   Then **<Shift-Enter>**
+   Then `<Shift-Enter>`
  
 
 Your screen should look something like:
