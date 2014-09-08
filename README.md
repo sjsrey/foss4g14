@@ -57,10 +57,13 @@ For Anaconda:
 3. In the browser click `New Notebook`
 3. In the first cell in the notebook enter  
    `import pysal`
+
    `pysal.version`
+   
    Then `<Shift-Enter>` (i.e., hit the Shift then the Enter Key)
 4. In the second cell in the notebook enter  
    `import folium`
+
    Then `<Shift-Enter>`
  
 Your screen should look something like:
@@ -75,10 +78,13 @@ For Enthought Canopy:
 3. In the browser click `New Notebook`
 3. In the first cell in the notebook enter  
    `import pysal`
+
    `pysal.version`
+   
    Then `<Shift-Enter>` (i.e., hit the Shift then the Enter Key)
 4. In the second cell in the notebook enter  
    `import folium`
+
    Then `<Shift-Enter>`
  
 
